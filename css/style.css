@@ -1,0 +1,113 @@
+header{
+    width:99%;
+    height:125px; 
+    border-radius:8px;
+    border: 2px solid black
+}
+
+ body {
+    background-color: #999;
+ }
+
+.head {
+    text-align:center;
+}
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+    margin-left:  auto;
+    margin-right:  auto;
+
+}
+
+div#tableRow1 {
+    display:  table-row;
+}
+div#tableRow2 {
+    display:  table-row;
+}
+div#tableRow3 {
+    display:  table-row;
+}
+.pc1,
+.pc2,
+.pc3,
+.pc4,
+.pc5,
+.pc6,
+.pc7,
+.pc8,
+.pc9,
+.pc10,
+.pc11,
+.pc12
+{
+    border: 2px solid black;
+    display: table-cell;
+    width:300px;
+    height:250px;
+    overflow: hidden;
+}
+.infoPc1{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}
+.infoPc2{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc3{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc4{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc5{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc6{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc7{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc8{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc9{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc10{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}
+.infoPc11{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}.infoPc12{
+    display: none;
+    width:300px;
+    height:250px;
+    background-color: black;
+}
