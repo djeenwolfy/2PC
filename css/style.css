@@ -43,71 +43,29 @@ div#tableRow3 {
 .pc12
 {
     border: 2px solid black;
-    display: table-cell;
+    display:table-cell;
     width:300px;
     height:250px;
-    overflow: hidden;
+    overflow:hidden;
 }
-.infoPc1{
-    display: none;
-    width:300px;
-    height:250px;
+.infoPc1,
+.infoPc2,
+.infoPc3,
+.infoPc4,
+.infoPc5,
+.infoPc6,
+.infoPc7,
+.infoPc8,
+.infoPc9,
+.infoPc10,
+.infoPc11,
+.infoPc12 {
+  /*margin-top:-250px;*/
+    width:100%;
+    height:100%;
     background-color: black;
+    display: none;
 }
-.infoPc2{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc3{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc4{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc5{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc6{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc7{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc8{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc9{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc10{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}
-.infoPc11{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}.infoPc12{
-    display: none;
-    width:300px;
-    height:250px;
-    background-color: black;
-}
+
+
+
