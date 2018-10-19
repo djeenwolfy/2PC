@@ -136,3 +136,39 @@ $(document).ready(function() {
 	 }
 	 })
 })
+$(document).ready(function() {
+	let clicked = false;
+	 $(".pc10").click(function(){
+	 	clicked = !clicked;
+	 	//console.log(clicked);
+	 	if(clicked) {
+	 	$(".infoPc10").slideDown(1000); 
+	 } else {
+	 	$(".infoPc10").slideUp(1000);
+	 }
+	 })
+})
+$(document).ready(function() {
+	let clicked = false;
+	 $(".pc11").click(function(){
+	 	clicked = !clicked;
+	 	//console.log(clicked);
+	 	if(clicked) {
+	 	$(".infoPc11").slideDown(1000); 
+	 } else {
+	 	$(".infoPc11").slideUp(1000);
+	 }
+	 })
+})
+$(document).ready(function() {
+	let clicked = false;
+	 $(".pc12").click(function(){
+	 	clicked = !clicked;
+	 	//console.log(clicked);
+	 	if(clicked) {
+	 	$(".infoPc12").slideDown(1000); 
+	 } else {
+	 	$(".infoPc12").slideUp(1000);
+	 }
+	 })
+})
