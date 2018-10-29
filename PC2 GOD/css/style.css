@@ -1,0 +1,175 @@
+body {
+	background-color: #222;
+	font-family: "Blender-Pro-Book";
+			src: url(fonts/Blender-Pro-Book.otf);
+
+}
+
+header {
+	border: 4px solid #FFEF00;
+	box-shadow: 0 0 1px #51CBF1, 0 0 2px #51CBF1, 
+				0 0 6px #51CBF1, 0 0 12px #51CBF1, 
+				inset 0 0 1px #51CBF1, inset 0 0 2px #51CBF1, 
+				inset 0 0 6px #51CBF1, inset 0 0 12px #51CBF1;
+											/* Neon border*/
+	border-radius: 7px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	max-height: 185px;
+}
+
+.slider {
+	margin-right: auto;
+	/*margin-left: auto;*/
+	width: 1900px;
+	height: 600px;
+	border: none;
+	text-align: center;
+} /* Slider */
+
+.header img {
+	margin: 0px auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.flex-container-header {
+	display: -webkit-flex;
+	-webkit-justify-content: space-between; 
+	-webkit-align-items: center;
+	display: flex; /*отображает контейнер как блочный элемент*/
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.logo {
+	align-self: center;
+}
+
+.div1 {
+	width: 15%;
+} /*Пустое пространство в header'е*/
+
+.search {
+	width: 15%;
+} 
+
+#LogoCDPR { 
+	height: 100px;
+}
+
+* {box-sizing: border-box;}
+form {
+  position: relative;
+  width: 180px;
+  margin: 0 auto;
+}
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+input {
+  width: 100%;
+  height: 30px;
+  background: #D8D8D8;
+  padding-left: 15px;
+}
+button {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  /*background: #F15B42;*/
+  cursor: pointer;
+}
+button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #0080E7;
+  font-size: 16px;
+  font-weight: bold;
+}  /* Форма поиска*/
+
+footer {
+	width: 100%;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+		color: #FEEE1C;
+	font-family: sans-serif;
+	border: 2px solid #73DEFE;
+	box-shadow: 0 0 1px #C300FE, 0 0 2px #C300FE, 
+				0 0 6px #C300FE, 0 0 12px #C300FE, 
+				inset 0 0 1px #C300FE, inset 0 0 2px #C300FE, 
+				inset 0 0 6px #C300FE, inset 0 0 12px #C300FE;
+											/* Neon border*/
+	border-radius: 7px;
+
+
+}
+
+.copyright {
+	text-align: center;
+}
+
+ul.list {
+list-style-type: none;
+
+}
+
+/*ul.list li {
+display: inline-block;
+margin-bottom: -10px;
+margin-left: 402px;
+}/
+/ul.list li:hover {
+border-bottom: 2px solid #FEEE1C;
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+-o-transition-duration: 0.3s;
+transition-duration: 0.3s;
+} */
+ul.list li p {
+margin: 0;
+}
+ul.list li {
+display: inline-block;
+margin-bottom: -10px;
+margin-left: 402px;
+position: relative;
+text-decoration: none;
+}
+ul.list li:after {
+display: block;
+position: absolute;
+left: 0;
+bottom: -3px;
+width: 0;
+height: 2px;
+background-color: #FEEE1C;
+content: "";
+transition: width 1s;
+}
+ul.list li:hover:after {
+width: 100%;
+display: block;
+position: absolute;
+left: 0;
+bottom: -3px;
+height: 2px;
+background-color: #FEEE1C;
+content: "";
+transition: width 1s;
+}
+
+_
+

@@ -1,0 +1,61 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.block1{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+}
+
+.block2{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+}
+
+.block3{
+	width: 200px;
+	height: 200px;
+	background-color: yellow
+}
+
+.block4{
+	width: 200px;
+	height: 200px;
+	background-color: black;
+}
+
+.block5{
+	width: 200px;
+	height: 200px;
+	background-color: brown;
+}
+.button {
+	width: 50px;
+	height: 50px;
+	background-color: pink;
+	margin-left: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

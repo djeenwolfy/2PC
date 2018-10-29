@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+}
+
+body {
+	background: #212121;
+	color: #eee;
+}
+
+nav {
+	width: 100%;
+	border-bottom: 3px solid  rgb(43, 41, 150);
+}
+
+#nav-ul {
+	text-align: center;
+	list-style: none;
+}
+
+.nav-ul-item {
+	display: inline-block;
+	padding: 2em 2em;
+	font-size: 15pt;
+}
+.nav-ul-item:hover {
+	cursor: pointer;
+	background: #000;
+	color: #eee;
+}
+
+#top-publications h3 {
+	text-align: center;
+}
+
+.top-publications-wrap {
+	display: flex;
+	justify-content: center;
+	/* overflow-x:scroll; */
+}
+
+.publications-item {
+	margin: .5rem
+}
