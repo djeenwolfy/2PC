@@ -1,0 +1,211 @@
+﻿  .stena{
+margin: 0;	
+width: 1920px;
+height: 1080px;
+position: absolute;
+background-color: #e0e2e5;
+
+
+}
+
+
+
+.head{
+margin: 0;
+width: 1920px;
+height: 200px;
+position: absolute;
+background-color: black;
+
+}
+.ris{
+width: 200px;
+height: 200px;
+margin-left: 30px;
+margin-top: 10px;
+position: absolute;
+
+}
+
+.naz{
+
+width: 600px;
+height: 10px;
+margin-left: 750px;
+margin-top: 120px;
+position: absolute;
+
+
+}
+
+.tor{
+
+    text-transform: uppercase;
+    font-family: 'Stencil', sans-serif;
+    color: white;
+    
+
+}
+
+
+  
+
+body {
+margin: 0px;	
+
+
+
+}
+
+
+.sered{
+width: 1000px;
+height: 200px;
+margin-left: 460px;
+margin-top: 200px;
+
+text-align: center;
+position: absolute;
+
+}
+
+.tr{
+
+   
+    font-family: 'MS Reference Sans Serif', sans-serif;
+    color: black;
+    
+
+}
+
+.sereh{
+width: 1600px;
+height: 600px;
+margin-left: 50px;
+margin-top: 350px;
+
+position: absolute;
+
+
+}
+
+.bnz{
+
+margin-left: 300px;
+    margin-top: 22px;
+position: absolute;
+border: 1.5px solid black;
+
+}
+
+.button1 {
+  
+  color:white;
+  background:black;
+  font-weight: 1700;
+  font-family: 'MS Reference Sans Serif', sans-serif;
+  text-decoration: none;
+  user-select: none;
+  padding: .5em 2em;
+  outline: none;
+  border-radius: 1px;
+  transition: 0.1s;
+  border:1px solid white;
+  font-size: 20px;
+} 
+.button1:active { background: white; }
+
+
+.Chat{
+width: 400px;
+height: 600px;
+margin-left: 1470px;
+margin-top: 215px;
+
+}
+
+
+input[type="text"] {
+background-color: #F1F1F1;
+width: 200px;
+height: 35px;
+padding-left: 20px;
+font-size: 16px;
+border-radius: 5px;
+}
+input[type="text"]:focus {
+background-color: #F1F1F1;
+width: 200px;
+height: 35px;
+padding-left: 20px;
+font-size: 16px;
+border-radius: 5px;
+border:1px solid #FB3D3D;
+}
+input[type="text"]:hover {
+background-color: #F1F1F1;
+width: 200px;
+height: 37.5px;
+padding-left: 20px;
+font-size: 16px;
+border-radius: 10px;
+border:3px solid #374246;
+}
+::-webkit-input-placeholder { color: red; }
+::-moz-placeholder { color: red; } / Firefox 19+ /
+:-moz-placeholder { color: red; } / Firefox 18- /
+:-ms-input-placeholder { color: red; }
+
+
+input[type="submit"] {
+width: 120px;
+height: 30px;
+background-color: #CFE1E3;
+
+
+
+}
+input[type="reset"] {
+width: 120px;
+height: 30px;
+background-color: #CFE1E3;
+
+
+}
+textarea[name="comment"] {
+  background-color: #F1F1F1;
+}
+
+.chat1{
+  margin-top: -500px;
+  margin-left: 500px;
+}
+.chat2{
+  width: 120px;
+  height: 30px;
+  background-color: black;
+display: none;
+}
+
+
+#square{ 
+
+padding:5px;
+
+height:570px;
+width:700px;
+margin-top: -600px;
+margin-left:0px;
+position: fixed;
+}
+
+.Niz {
+width: 1920px;
+height: 100px;
+background-color: black;
+bottom: -105px;
+position:absolute;
+clear: left;
+}
+
+
